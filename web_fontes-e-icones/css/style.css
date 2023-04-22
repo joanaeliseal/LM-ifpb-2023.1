@@ -1,0 +1,113 @@
+body {
+  color: darkslategrey;
+  font-family: Times, sans-serif;
+  font-size: 17px;
+  color: black;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#copyright {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1 {
+  font-size:30px;
+  font-family: 'Audiowide', cursive; /*INSTRUÇÃO 1*/
+}
+
+#person {
+  text-align: left;
+}
+
+h2 {
+  font-size:24px;
+  background-color: lightskyblue;
+  border-radius: 5px; /*INSTRUÇÃO 2*/
+}
+
+h1, h2, a, a:visited {
+  color: darkblue;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a, h1 a:visited {
+  color: white;
+}
+h2 a, h2 a:visited {
+  color: lightskyblue;
+}
+h1:hover a, h2:hover a {
+  color: darkblue;
+}
+
+.material-icons {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/*INSTRUÇÃO 3*/
+#launch-icon {
+  font-size: 1rem;
+}
+
+#launch-icon, p {
+  line-height: 1.5rem;
+}
+
+.btn { /*INSTRUÇÃO 4*/
+  font-size: 1.3rem;
+  border: none;
+  background-color: transparent;
+}
+.btn:hover, .btn:hover a {
+  color: white;
+  background-color: darkblue;
+  text-decoration: none;
+}
+
+/*INSTRUÇÃO 5*/
+#social {
+  text-align: center;
+}
+
+#social a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: white;
+}
+
+#social .facebook-icon, #social .linkedin-icon {
+  color: navy;
+}
+#social .twitter-icon {
+  color: dodgerblue;
+}
+
+@media print {
+  body, h1 {
+    color: black;
+    font-family: Times, serif;
+  }
+
+  #person {
+    text-align: left;
+  }
+
+  h2 {
+    background-color: unset;
+  }
+
+  h2 a, a.topo {
+    color: white;
+  }
+}

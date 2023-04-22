@@ -1,0 +1,38 @@
+body {
+    color: darkslategray;
+    font-family: arial, sans-serif;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 30px;
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 24px;
+    background-color: lightskyblue;
+    color: darkblue;
+}
+
+a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+a:link {
+    color: lightskyblue;
+}
+a:visited {
+    color: lightskyblue;
+}
+a:hover {
+    color: darkblue;
+}
