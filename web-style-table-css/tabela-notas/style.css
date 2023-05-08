@@ -1,0 +1,24 @@
+table {
+    text-align: center;
+    width: 50%;
+    min-width: 300px;
+    margin: 50px auto auto auto;
+}
+ /* :first-child — use essa sintaxe quando você não sabe qual é o tipo do elemento que é o primeiro filho*/
+tbody tr:first-child th {
+    border-top: 1px solid black;
+}
+table, td {
+    border-collapse: collapse;
+}
+/* Células adjacentes têm bordas compartilhadas (o modelo de renderização de tabela de borda recolhida)*/
+tbody tr td:nth-child(1) {
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(240,248,255);
+}
+/* E:nth-child(an + b ou even ou odd) ( filhos de um só tipo em determinadas posições)
+:nth-child(an + b ou even ou odd) ( filhos de diferentes tipos em determinadas posições)
+*/
